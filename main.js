@@ -83,7 +83,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 28, vars: 0, consts: [["id", "carouselExampleControls", "data-bs-ride", "carousel", 1, "carousel"], ["position", "block", "width", "", 1, "carousel-inner"], [1, "carousel-item", "active"], ["src", "https://resources.afl.com.au/photo-resources/2019/12/05/9afccce2-87db-4a20-abcc-0c62c6516b3d/afl-logo.png?width=1200&height=630", "alt", "...", 1, "d-block", "w-100"], [1, "carousel-item"], ["src", "https://resources.richmondfc.com.au/photo-resources/2021/05/15/ebdac12b-70e5-4aa6-8f8e-4fa993d05564/4HmNKZ8g.jpg?width=952&height=600", "alt", "...", 1, "d-block", "w-100"], ["src", "https://www.marketsports.com.au/assets/website_logo.png", "alt", "...", 1, "d-block", "w-100"], ["type", "button", "data-bs-target", "#carouselExampleControls", "data-bs-slide", "prev", 1, "carousel-control-prev"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "visually-hidden"], ["type", "button", "data-bs-target", "#carouselExampleControls", "data-bs-slide", "next", 1, "carousel-control-next"], ["aria-hidden", "true", 1, "carousel-control-next-icon"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 33, vars: 0, consts: [["id", "carouselExampleControls", "data-bs-ride", "carousel", 1, "carousel"], ["position", "block", "width", "", 1, "carousel-inner"], [1, "carousel-item", "active"], ["src", "https://resources.afl.com.au/photo-resources/2019/12/05/9afccce2-87db-4a20-abcc-0c62c6516b3d/afl-logo.png?width=1200&height=630", "alt", "...", 1, "d-block", "w-100"], [1, "carousel-item"], ["src", "https://resources.richmondfc.com.au/photo-resources/2021/05/15/ebdac12b-70e5-4aa6-8f8e-4fa993d05564/4HmNKZ8g.jpg?width=952&height=600", "alt", "...", 1, "d-block", "w-100"], ["src", "https://www.marketsports.com.au/assets/website_logo.png", "alt", "...", 1, "d-block", "w-100"], ["type", "button", "data-bs-target", "#carouselExampleControls", "data-bs-slide", "prev", 1, "carousel-control-prev"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "visually-hidden"], ["type", "button", "data-bs-target", "#carouselExampleControls", "data-bs-slide", "next", 1, "carousel-control-next"], ["aria-hidden", "true", 1, "carousel-control-next-icon"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "br");
@@ -122,7 +122,14 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "AFL is bla bla");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "The Australian Football League (AFL) is the pre-eminent and only fully professional men's competition of Australian rules football. Through the AFL Commission, the AFL also serves as the sport's governing body and is responsible for controlling the laws of the game. Originally known as the Victorian Football League (VFL), it was founded in 1896 as a breakaway competition from the Victorian Football Association (VFA), with its inaugural season commencing the following year. The VFL, aiming to become a national competition, began expanding beyond Victoria to other Australian states in the 1980s, and changed its name to the AFL in 1990. The league currently consists of 18 teams spread over five of Australia's six states (Tasmania being the exception), although there has been a lot of support for a team to be moved to or created in Tasmania. Matches have been played in all states and mainland territories of Australia, as well as in New Zealand and China to promote the sport abroad. The AFL season currently consists of a 23-round regular (or \"home-and-away\") season, which runs during the Australian winter (March to September). The team with the best record after the home-and-away series is awarded the \"minor premiership\". The top eight teams then play off in a four-round finals series, culminating in the AFL Grand Final, which is held at the Melbourne Cricket Ground each year. The grand final winner is termed the \"premiers\", and is awarded the premiership cup. The current premiers are Richmond, who won the 2020 AFL Grand Final in the first-ever night grand final.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "History");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Origins Melbourne was a burgeoning city built on the riches of the 1850s gold rush by the time Australian football first appeared in 1858. As with other areas of British settlement during the 19th century, cricket emerged as the primary summer sport. Concerned about off-season fitness, cricketer Thomas Wentworth Wills (1835\u201380), who was born in Australia but educated at Rugby School in England\u2014where he captained the cricket team and excelled in football\u2014believed that a football club should be formed to keep his teammates fit during winter. The Melbourne Cricket Club agreed with Wills\u2019s suggestion and, as there were no standardized football codes at that time, appointed a committee to devise a set of rules. The Melbourne and Geelong football clubs were established in 1858 and 1859, respectively, and are two of the oldest football clubs in the world. The rules agreed to by the committee on May 17, 1859, were a compromise between those of several English public schools, notably Winchester, Harrow, and Rugby. Players were allowed to handle the ball but not to run farther than necessary to kick it. In 1866 H.C.A. Harrison (1836\u20131929), a cousin of Wills, rewrote the rules. These rules imposed no limit on the number of players, though in the 1880s, 20 men per team became standard. Concerned about the possibility of injury on the hard Australian grounds, players were reluctant to commit to the tackling and hacking (kicking or tripping an opponent) rules of the Rugby School game, and hacking was banned. Distinctive aspects of Australian football rapidly appeared. At the outset, a provision was made that players who caught, or \u201Cmarked,\u201D a ball cleanly in the air were allowed a free kick. Players could also retain possession of the ball while running, but after some dispute it was agreed in 1865 that the player with the ball had to bounce it off the turf at least every 10 metres (33 feet). Most crucial, and in contrast to other football sports, there was no offside rule, which meant that players from each team were located behind and in front of the ball during play. By 1874 players no longer scored by carrying the ball between goal posts but scored by kicking the ball through them. Australian rules football also developed a unique set of goalposts, comprising two large goalposts flanked by two shorter \u201Cbehind\u201D posts. The centre bounce used by umpires to start games and to restart play after a goal was instituted in 1891 and also remains unique to Australian football. Goal umpires were first mentioned in 1874 in accounts of the game. The practice of the goal umpire\u2019s waving a flag to signal a goal began in Tasmania in 1884 and was adopted in Victoria in 1886. The game expanded rapidly during the 1870s and \u201980s. In the\u201970s, matches between the Melbourne and Carlton football clubs attracted as many as 10,000 spectators, who at that time watched for free. Spectators often encroached on the playing surface, and this led to the enclosure of grounds for ease of play. The first facility built specifically for Australian football use appeared in 1876 on land leased by Carlton from Melbourne University. The first Carlton-Melbourne game at the ground attracted 5,000 spectators. By the mid-\u201980s crowds approaching 34,000 were attending matches between leading clubs. On May 7, 1877, representatives of the Albert Park, Carlton, East Melbourne, Essendon, Geelong, Hotham, Melbourne, and St Kilda football clubs met to form the Victorian Football Association (VFA) for the \u201Cpromotion and extension of football throughout the colony\u201D and the organization of intercolonial matches. During the 1870s over 125 clubs appeared in Melbourne, and another 60 senior clubs were established elsewhere in Victoria. A regular schedule of matches was developed; additional grounds were enclosed; and VFA clubs were able to charge admission. The game continued to spread throughout the colonies. In 1877 the South Australian Football Association was formed. Tasmania accepted VFA rules in 1882, and in 1885 the Western Australian Football Association was established. Despite these successes, the game struggled to gain a foothold in the northeastern parts of Australia. The first game in Sydney took place in 1877, but rugby union, with its imperial connections, was favoured by the 1890s. A similar process occurred in Queensland and New Zealand. The great distances that separated colonies and the capital cities meant that regular competition between clubs from different areas was not possible, and indeed the first participation of an interstate team in the main Victorian competition did not occur until 1982. However, because road games between Victorian teams were often only a tram ride away, many fans could go to all of their team\u2019s games in any given season at little expense.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJob21lLmNvbXBvbmVudC5jc3MifQ== */"] });
 
@@ -849,11 +856,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function PredictionComponent_li_6_Template(rf, ctx) { if (rf & 1) {
+function PredictionComponent_li_13_Template(rf, ctx) { if (rf & 1) {
     const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "li", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function PredictionComponent_li_6_Template_li_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r4); const team_r2 = ctx.$implicit; const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r3.onSelect(team_r2); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "li", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function PredictionComponent_li_13_Template_li_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r4); const team_r2 = ctx.$implicit; const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r3.onSelect(team_r2); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -865,20 +872,20 @@ function PredictionComponent_li_6_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", team_r2.name, " ");
 } }
-function PredictionComponent_div_7_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 9);
+function PredictionComponent_div_14_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "app-logo", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "app-logo", 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "h5", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "h5", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, "This is the prediction for next Game between my team ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](6, "app-logo", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](6, "app-logo", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](8, "app-logo", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](8, "app-logo", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "app-table", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "app-table", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
@@ -979,21 +986,30 @@ class PredictionComponent {
     }
 }
 PredictionComponent.ɵfac = function PredictionComponent_Factory(t) { return new (t || PredictionComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_services_data_service__WEBPACK_IMPORTED_MODULE_2__["DataService"])); };
-PredictionComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: PredictionComponent, selectors: [["app-prediction"]], decls: 8, vars: 2, consts: [[1, "match"], [1, "dropdown"], ["id", "prediction___dropdownselectteam", "type", "button", "data-toggle", "dropdown", 1, "btn", "btn-primary", "dropdown-toggle", "match-dropdown-button"], [1, "caret"], ["aria-labelledby", "prediction___dropdownselectteam", 1, "dropdown-menu", "match-dropdown-menu"], [3, "class", "click", 4, "ngFor", "ngForOf"], ["class", "match-content", 4, "ngIf"], [3, "click"], [1, "match-logo", 3, "src"], [1, "match-content"], ["height", "50%", "width", "50%", 3, "team"], [1, "match-content-title"], ["height", "5%", "width", "5%", 3, "team"], [3, "temp"]], template: function PredictionComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "button", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "Select your favourite team ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "span", 3);
+PredictionComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: PredictionComponent, selectors: [["app-prediction"]], decls: 15, vars: 2, consts: [[2, "text-align", "center"], [1, "match"], [1, "dropdown"], ["id", "prediction___dropdownselectteam", "type", "button", "data-toggle", "dropdown", 1, "btn", "btn-primary", "dropdown-toggle", "match-dropdown-button"], [1, "caret"], ["aria-labelledby", "prediction___dropdownselectteam", 1, "dropdown-menu", "match-dropdown-menu"], [3, "class", "click", 4, "ngFor", "ngForOf"], ["class", "match-content", 4, "ngIf"], [3, "click"], [1, "match-logo", 3, "src"], [1, "match-content"], ["height", "50%", "width", "50%", 3, "team"], [1, "match-content-title"], ["height", "5%", "width", "5%", 3, "team"], [3, "temp"]], template: function PredictionComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4, "Welcome to Game Page");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "ul", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](6, PredictionComponent_li_6_Template, 3, 5, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, "Click on \"Select your favourite team\" to see Prediction details");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "button", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "Select your favourite team ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](11, "span", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "ul", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, PredictionComponent_li_13_Template, 3, 5, "li", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](7, PredictionComponent_div_7_Template, 11, 7, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](14, PredictionComponent_div_14_Template, 11, 7, "div", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](13);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.teams);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.selectedTeam);
@@ -1024,11 +1040,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function RivalMatchComponent_li_6_Template(rf, ctx) { if (rf & 1) {
+function RivalMatchComponent_li_13_Template(rf, ctx) { if (rf & 1) {
     const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "li", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function RivalMatchComponent_li_6_Template_li_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r5); const team_r3 = ctx.$implicit; const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r4.onSelect(team_r3, "favourite"); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "li", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function RivalMatchComponent_li_13_Template_li_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r5); const team_r3 = ctx.$implicit; const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r4.onSelect(team_r3, "favourite"); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1041,11 +1057,11 @@ function RivalMatchComponent_li_6_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", team_r3.name, " ");
 } }
-function RivalMatchComponent_div_8_li_5_Template(rf, ctx) { if (rf & 1) {
+function RivalMatchComponent_div_15_li_5_Template(rf, ctx) { if (rf & 1) {
     const _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "li", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function RivalMatchComponent_div_8_li_5_Template_li_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r9); const team_r7 = ctx.$implicit; const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2); return ctx_r8.onSelect(team_r7, "rival"); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "li", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function RivalMatchComponent_div_15_li_5_Template_li_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r9); const team_r7 = ctx.$implicit; const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2); return ctx_r8.onSelect(team_r7, "rival"); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1058,14 +1074,14 @@ function RivalMatchComponent_div_8_li_5_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", team_r7.name, " ");
 } }
-function RivalMatchComponent_div_8_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "button", 10);
+function RivalMatchComponent_div_15_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "button", 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "Select rival team ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "span", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "span", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "ul", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](5, RivalMatchComponent_div_8_li_5_Template, 3, 6, "li", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "ul", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](5, RivalMatchComponent_div_15_li_5_Template, 3, 6, "li", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1073,26 +1089,26 @@ function RivalMatchComponent_div_8_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx_r1.teams);
 } }
-function RivalMatchComponent_div_9_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "h3", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "app-logo", 15);
+function RivalMatchComponent_div_16_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "h3", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "app-logo", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "div", 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](6, "app-logo", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](6, "app-logo", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "h5", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "h5", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, "All the results of Richmond vs Sydney in this season");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "app-table", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "h5", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "app-table", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "h5", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "All the results of Richmond vs Sydney in previous season");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](13, "app-table", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](13, "app-table", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
@@ -1220,23 +1236,32 @@ class RivalMatchComponent {
     }
 }
 RivalMatchComponent.ɵfac = function RivalMatchComponent_Factory(t) { return new (t || RivalMatchComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_services_data_service__WEBPACK_IMPORTED_MODULE_2__["DataService"])); };
-RivalMatchComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: RivalMatchComponent, selectors: [["app-rival-match"]], decls: 10, vars: 3, consts: [[1, "match"], [1, "dropdown"], ["id", "favourite___dropdownselectteam", "type", "button", "data-toggle", "dropdown", 1, "btn", "btn-primary", "dropdown-toggle", "match-dropdown-button"], [1, "caret"], ["aria-labelledby", "favourite___dropdownselectteam", 1, "dropdown-menu", "match-dropdown-menu"], [3, "class", "hidden", "click", 4, "ngFor", "ngForOf"], ["class", "dropdown", 4, "ngIf"], ["class", "match-content", 4, "ngIf"], [3, "hidden", "click"], [1, "match-logo", 3, "src"], ["id", "rival___dropdownselectteam", "type", "button", "data-toggle", "dropdown", 1, "btn", "btn-primary", "dropdown-toggle", "match-dropdown-button"], ["aria-labelledby", "rival___dropdownselectteam", 1, "dropdown-menu", "match-dropdown-menu-2"], [1, "match-content"], [1, "match-comparision"], [1, "logo"], ["height", "50%", "width", "50%", 3, "team"], [1, "match-content-title"], [3, "temp"]], template: function RivalMatchComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "button", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "Select your favourite team ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "span", 3);
+RivalMatchComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: RivalMatchComponent, selectors: [["app-rival-match"]], decls: 17, vars: 3, consts: [[2, "text-align", "center"], [1, "match"], [1, "dropdown"], ["id", "favourite___dropdownselectteam", "type", "button", "data-toggle", "dropdown", 1, "btn", "btn-primary", "dropdown-toggle", "match-dropdown-button"], [1, "caret"], ["aria-labelledby", "favourite___dropdownselectteam", 1, "dropdown-menu", "match-dropdown-menu"], [3, "class", "hidden", "click", 4, "ngFor", "ngForOf"], ["class", "dropdown", 4, "ngIf"], ["class", "match-content", 4, "ngIf"], [3, "hidden", "click"], [1, "match-logo", 3, "src"], ["id", "rival___dropdownselectteam", "type", "button", "data-toggle", "dropdown", 1, "btn", "btn-primary", "dropdown-toggle", "match-dropdown-button"], ["aria-labelledby", "rival___dropdownselectteam", 1, "dropdown-menu", "match-dropdown-menu-2"], [1, "match-content"], [1, "match-comparision"], [1, "logo"], ["height", "50%", "width", "50%", 3, "team"], [1, "match-content-title"], [3, "temp"]], template: function RivalMatchComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "h1", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4, "Welcome to Game Page");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "ul", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](6, RivalMatchComponent_li_6_Template, 3, 6, "li", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "p", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, "Click on \"Select your favourite team\" to see Rival match");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "button", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "Select your favourite team ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](11, "span", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "ul", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, RivalMatchComponent_li_13_Template, 3, 6, "li", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](7, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](8, RivalMatchComponent_div_8_Template, 6, 1, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, RivalMatchComponent_div_9_Template, 14, 6, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](14, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](15, RivalMatchComponent_div_15_Template, 6, 1, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](16, RivalMatchComponent_div_16_Template, 14, 6, "div", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](13);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.teams);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.favouriteTeam);
